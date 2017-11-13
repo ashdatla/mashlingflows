@@ -58,7 +58,7 @@
                   },
                   {
                     "name": "uri",
-                    "value": "https://integration.cloud.tibcoapps.com/conlxpvs5a3t3lc2jqzpjpj4q7spjzx6/case/:caseid",
+                    "value": "https://integration.cloud.tibcoapps.com/jbgvdevn42534wp57rz3zqpn2dmx3go6",
                     "required": true,
                     "type": "string"
                   },
@@ -89,11 +89,6 @@
                   }
                 ],
                 "inputMappings": [
-                  {
-                    "type": 1,
-                    "value": "{T.pathParams}.caseid",
-                    "mapTo": "pathParams.caseid"
-                  },
                   {
                     "type": 1,
                     "value": "{T.content}",
