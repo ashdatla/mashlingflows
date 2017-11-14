@@ -52,13 +52,13 @@
                 "attributes": [
                   {
                     "name": "method",
-                    "value": "get",
+                    "value": "GET",
                     "required": true,
                     "type": "string"
                   },
                   {
                     "name": "uri",
-                    "value": "https://integration.cloud.tibcoapps.com/jbgvdevn42534wp57rz3zqpn2dmx3go6",
+                    "value": "https://integration.cloud.tibcoapps.com/3hxacd3aqtr2gm2snyo6dsew25dly5oz/mashling",
                     "required": true,
                     "type": "string"
                   },
