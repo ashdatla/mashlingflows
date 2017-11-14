@@ -52,7 +52,7 @@
                 "attributes": [
                   {
                     "name": "method",
-                    "value": "POST",
+                    "value": "get",
                     "required": true,
                     "type": "string"
                   },
@@ -64,9 +64,7 @@
                   },
                   {
                     "name": "pathParams",
-                    "value": {
-                      "caseid": "string"
-                    },
+                    "value": null,
                     "required": false,
                     "type": "params"
                   },
@@ -77,23 +75,12 @@
                     "type": "params"
                   },
                   {
-                    "name": "content",
-                    "value": null,
-                    "required": false,
-                    "type": "object"
-                  },
-                  {
                     "name": "tracing",
                     "value": null,
                     "type": "any"
                   }
                 ],
                 "inputMappings": [
-                  {
-                    "type": 1,
-                    "value": "{T.content}",
-                    "mapTo": "content"
-                  },
                   {
                     "type": 1,
                     "value": "{T.tracing}",
